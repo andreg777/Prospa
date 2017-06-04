@@ -1,0 +1,7 @@
+C:\Projects\github\Prospa\Prospa\Prospa.Core.Interface\bin\Debug\Prospa.Core.Interface.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core.Interface\bin\Debug\Prospa.Core.Interface.pdb
+C:\Projects\github\Prospa\Prospa\Prospa.Core.Interface\bin\Debug\Prospa.Model.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core.Interface\bin\Debug\Prospa.Model.pdb
+C:\Projects\github\Prospa\Prospa\Prospa.Core.Interface\obj\Debug\Prospa.Core.Interface.csprojResolveAssemblyReference.cache
+C:\Projects\github\Prospa\Prospa\Prospa.Core.Interface\obj\Debug\Prospa.Core.Interface.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core.Interface\obj\Debug\Prospa.Core.Interface.pdb

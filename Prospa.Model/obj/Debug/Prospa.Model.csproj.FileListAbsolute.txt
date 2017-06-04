@@ -1,0 +1,4 @@
+C:\Projects\github\Prospa\Prospa\Prospa.Model\bin\Debug\Prospa.Model.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Model\bin\Debug\Prospa.Model.pdb
+C:\Projects\github\Prospa\Prospa\Prospa.Model\obj\Debug\Prospa.Model.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Model\obj\Debug\Prospa.Model.pdb

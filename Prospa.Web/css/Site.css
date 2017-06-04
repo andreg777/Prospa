@@ -1,0 +1,96 @@
+﻿.outputContainer{
+    position:relative;
+    width:950px;
+    height:450px;
+
+}
+.cheque{
+    width:950px;
+    height:450px;
+    position:absolute;
+    left:0px;
+    top:0px;
+}
+.numberInput{
+    position: absolute;
+    left:750px;
+    top:160px;
+    height:40px;
+    width:160px;
+    font-size:large;
+}
+
+.label{
+    position: absolute;
+    left:110px;
+    top:165px;
+    font-size:large;
+    width:600px;
+    line-height:50px;
+    font-family: 'Dancing Script', serif;    
+    font-size:23px;
+}
+
+.y1{
+    position: absolute;
+    left:725px;
+    top:87px;
+    width:18px;
+    height:25px;
+    font-size:23px;
+}
+.y2{
+    position: absolute;
+    left:755px;
+    top:87px;
+    width:18px;
+    height:25px;
+    font-size:23px;
+}
+.m1{
+    position: absolute;
+    left:790px;
+    top:87px;
+    width:18px;
+    height:25px;
+    font-size:23px;
+}
+.m2{
+    position: absolute;
+    left:825px;
+    top:87px;
+    width:18px;
+    height:25px;
+    font-size:23px;
+}
+.d1{
+    position: absolute;
+    left:855px;
+    top:87px;
+    width:18px;
+    height:25px;
+    font-size:23px;
+}
+.d2{
+    position: absolute;
+    left:890px;
+    top:87px;
+    width:18px;
+    height:25px;
+    font-size:23px;
+}
+.for{
+    position: absolute;
+    left:80px;
+    top:325px;
+    font-size:large;
+    width:250px;
+    font-family: 'Dancing Script', serif;    
+    font-size:23px;
+    background-color:rgb(222, 231, 231);
+}
+
+.error{
+    color:red;
+    font-weight: bold;
+}

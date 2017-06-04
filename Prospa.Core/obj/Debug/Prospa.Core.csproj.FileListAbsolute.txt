@@ -1,0 +1,17 @@
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Prospa.Core.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Prospa.Core.pdb
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Microsoft.Web.Infrastructure.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Ninject.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Ninject.Web.Common.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Ninject.Web.Mvc.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Prospa.Core.Interface.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Prospa.Model.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\WebActivatorEx.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Prospa.Core.Interface.pdb
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Prospa.Model.pdb
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Ninject.xml
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Ninject.Web.Common.xml
+C:\Projects\github\Prospa\Prospa\Prospa.Core\bin\Debug\Ninject.Web.Mvc.xml
+C:\Projects\github\Prospa\Prospa\Prospa.Core\obj\Debug\Prospa.Core.csprojResolveAssemblyReference.cache
+C:\Projects\github\Prospa\Prospa\Prospa.Core\obj\Debug\Prospa.Core.dll
+C:\Projects\github\Prospa\Prospa\Prospa.Core\obj\Debug\Prospa.Core.pdb

@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" ng-app="chequeApp">
+<head>
+    <title></title>
+    <link href="css/Site.css" rel="stylesheet" />
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Dancing Script">
+    <link href="css/angular-material.css" rel="stylesheet" />
+
+</head>
+<body>
+    <script type="text/javascript" src="js/lib/angular.js"></script>
+    <script type="text/javascript" src="js/lib/angular-animate.js"></script>
+    <script type="text/javascript" src="js/lib/angular-aria.js"></script>
+    <script type="text/javascript" src="js/lib/angular-material.js"></script>
+    <script type="text/javascript" src="js/lib/moment.min.js"></script>
+
+    <div ng-controller="chequeCtrl">
+        <div ng-if="viewModel.showInput == true" layout="column" flex="50">
+            <md-subheader class="md-primary md-no-sticky">Enter cheque details</md-subheader>
+
+            <md-input-container class="md-block">
+                <label>Name</label>
+                <input ng-model="viewModel.name" placeholder="Provide a name"/>
+            </md-input-container>
+
+            <md-input-container class="md-block">
+                <label>Amount</label>
+                <input ng-model="viewModel.amount" placeholder="Provide an amount" type="number"/>
+            </md-input-container>
+            
+            <div layout="row" flex>
+                <div flex="30">
+                    Send date
+                </div>
+                <div flex="70">
+                    <md-datepicker ng-model="viewModel.date" md-placeholder="Enter stuur datum"></md-datepicker>
+                </div>
+            </div>
+            <div layout="row" layout-align="end center">                
+                <md-button class="md-primary md-raised" ng-click="convertNumberToWords()">Show me the cheque!!</md-button>
+            </div>
+        </div>
+
+        <div class="outputContainer" ng-if="viewModel.showInput == false">
+            <img class="cheque" src="css/cheque.png" />
+            
+            <input ng-change="convertNumberToWords()" ng-model="viewModel.amount" type="number" class="numberInput" placeholder="Type amount here" min="0" />
+
+            <input class="y1" placeholder="Y" min="0" max="9" ng-model="viewModel.date.getFullYear().toString()[2]" />
+            <input class="y2" placeholder="Y" min="0" max="9" ng-model="viewModel.date.getFullYear().toString()[3]" />
+
+            <input class="m1" placeholder="M" min="0" max="1" value="{{(viewModel.date.getMonth() + 1) < 10 ? '0' : '1'}}" />
+            <input class="m2" placeholder="M" min="0" max="2" value="{{(viewModel.date.getMonth() + 1) < 10 ? (viewModel.date.getMonth() + 1).toString()[0] : (viewModel.date.getMonth() + 1).toString()[1]}}" />
+
+            <input class="d1" placeholder="D" min="0" max="3" value="{{(viewModel.date.getDate()) < 10 ? '0' : (viewModel.date.getDate()).toString()[0]}}" />
+            <input class="d2" placeholder="D" min="0" max="9" value="{{(viewModel.date.getDate()) > 10 ? (viewModel.date.getDate()).toString()[1] : (viewModel.date.getMonth()).toString()[0]}}" />
+
+            <span class="for" >{{viewModel.name}}</span>
+        </div>
+
+        <span class="label">{{viewModel.wordOutput}}</span>
+
+    </div>
+    
+    <span class="error">{{viewModel.error}}</span>
+
+    <script type="text/javascript" src="js/app.js"></script>
+    <script type="text/javascript" src="js/chequeCtrl.js"></script>
+    <script type="text/javascript" src="js/chequeService.js"></script>
+
+</body>
+</html>
